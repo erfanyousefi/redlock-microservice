@@ -1,0 +1,13 @@
+services:
+  redis1:
+    image: docker.arvancloud.ir/redis:7
+    ports: -"7001:6379",
+  redis2:
+    image: docker.arvancloud.ir/redis:7
+    ports: -"7002:6379",
+  redis3:
+    image: docker.arvancloud.ir/redis:7
+    ports: -"7003:6379",
+  redis4:
+    image: docker.arvancloud.ir/redis:7
+    ports: -"7004:6379",

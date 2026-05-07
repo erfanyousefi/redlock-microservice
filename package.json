@@ -1,0 +1,6 @@
+{
+    "workspace": [
+        "services/*",
+        "shared"
+    ]
+}
